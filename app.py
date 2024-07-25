@@ -83,16 +83,16 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # Input pengguna
-age = st.number_input('Age', min_value=18, max_value=100)
+age = st.number_input('Age', min_value=18, max_value=100, step=1)
 gender = st.selectbox('Gender', ['Male', 'Female'])
 marital_status = st.selectbox('Marital Status', ['Single', 'Married'])
 occupation = st.selectbox('Occupation', ['Student', 'Employee', 'Self Employed'])
-monthly_income = st.number_input('Monthly Income', min_value=0)
+monthly_income = st.number_input('Monthly Income', min_value=0, step=1)
 educational_qualifications = st.selectbox('Educational Qualifications', ['Under Graduate', 'Graduate', 'Post Graduate'])
-family_size = st.number_input('Family size', min_value=1, max_value=20)
-latitude = st.number_input('Latitude')
-longitude = st.number_input('Longitude')
-pin_code = st.number_input('Pin code', min_value=0)
+family_size = st.number_input('Family size', min_value=1, max_value=20, step=1)
+latitude = st.number_input('Latitude', format="%.6f")
+longitude = st.number_input('Longitude', format="%.6f")
+pin_code = st.number_input('Pin code', min_value=0, step=1)
 
 user_input = {
     'Age': age,
