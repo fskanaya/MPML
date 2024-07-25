@@ -43,37 +43,35 @@ def preprocess_input(user_input):
     processed_input[numeric_features] = scaler.transform(processed_input[numeric_features])
     return processed_input
 
-# CSS for styling
 st.markdown("""
     <style>
     .main {
-        background-color: #F5F5F5; /* Light Gray background */
+        background-color: #F5F5F5; /* Light Grey background */
     }
     h1 {
-        color: #333333; /* Dark Gray color */
+        color: #333333; /* Dark Grey color */
         text-align: center;
-        margin-bottom: 25px;
+        margin-bottom: 20px;
     }
     h3 {
-        color: #333333; /* Dark Gray color */
+        color: #333333; /* Dark Grey color */
     }
     .stButton>button {
-        background-color: #4B4B4B; /* Dark Gray button */
+        background-color: #007BFF; /* Bootstrap Blue button */
         color: white;
-        padding: 10px 24px;
+        padding: 10px 20px;
         border: none;
         border-radius: 4px;
         cursor: pointer;
     }
     .stButton>button:hover {
-        background-color: #2C2C2C; /* Darker Gray on hover */
+        background-color: #0056b3; /* Darker Blue on hover */
     }
     .stNumberInput, .stSelectbox {
-        margin-bottom: 20px;
+        margin-bottom: 15px;
     }
     </style>
 """, unsafe_allow_html=True)
-
 # Streamlit app layout
 st.markdown('<h1>Prediksi Feedback Pelanggan Online Food</h1>', unsafe_allow_html=True)
 
