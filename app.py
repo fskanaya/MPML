@@ -79,7 +79,7 @@ st.markdown("""
 st.markdown('<h1>Prediksi Feedback Pelanggan Online Food</h1>', unsafe_allow_html=True)
 
 # Input pengguna
-age = st.selectbox('Age', (18,101))
+age = st.number_input('Age', min_value=18, max_value=100, step=1)
 gender = st.radio('Gender', ['Male', 'Female'])
 marital_status = st.radio('Marital Status', ['Single', 'Married'])
 occupation = st.radio('Occupation', ['Student', 'Employee', 'Self Employed'])
@@ -91,16 +91,16 @@ longitude = st.number_input('Longitude', format="%.6f")
 pin_code = st.number_input('Pin code', min_value=0, step=1)
 
 user_input = {
-    'Age': age,
-    'Gender': gender,
-    'Marital Status': marital_status,
-    'Occupation': occupation,
-    'Monthly Income': monthly_income,
-    'Educational Qualifications': educational_qualifications,
-    'Family size': family_size,
-    'latitude': latitude,
-    'longitude': longitude,
-    'Pin code': pin_code
+    'Umur': age,
+    'Jenis kelamin': gender,
+    'Status perkawinan': marital_status,
+    'Pekerjaan': occupation,
+    'Penghasilan bulanan': monthly_income,
+    'Kualifikasi pendidikan': educational_qualifications,
+    'Jumlah keluarga': family_size,
+    'Latitude': latitude,
+    'Longitude': longitude,
+    'Kode pos': pin_code
 }
 
 # Pemetaan angka ke label
