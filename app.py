@@ -25,7 +25,7 @@ for column in data.select_dtypes(include=['object']).columns:
     label_encoders[column] = le
 
 scaler = StandardScaler()
-numeric_features = ['Age', 'Family size', 'Monthly Income']
+numeric_features = ['Age', 'Family size']
 data[numeric_features] = scaler.fit_transform(data[numeric_features])
 
 # Fungsi untuk memproses input pengguna
