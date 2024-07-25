@@ -106,8 +106,3 @@ if st.button('Predict'):
         st.write(f'Prediction: {prediction[0]}')
     except ValueError as e:
         st.error(f"Error in prediction: {e}")
-
-# Menampilkan data pengguna yang diinput dalam tabel
-st.write("Data Pengguna yang Dimasukkan:")
-st.dataframe(pd.DataFrame([user_input]))
-
