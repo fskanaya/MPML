@@ -41,7 +41,9 @@ def preprocess_input(user_input):
                 processed_input[column] = [-1]
     processed_input = pd.DataFrame(processed_input)
     processed_input[numeric_features] = scaler.transform(processed_input[numeric_features])
-    return processed_input# CSS for styling
+    return processed_input
+
+# CSS for styling
 st.markdown("""
     <style>
     .main {
@@ -99,7 +101,7 @@ user_input = {
     'Occupation': occupation,
     'Educational Qualifications': educational_qualifications,
     'Family size': family_size,
-   }
+}
 
 if st.button('Predict'):
     user_input_processed = preprocess_input(user_input)
@@ -108,6 +110,10 @@ if st.button('Predict'):
         st.write(f'Prediction: {prediction[0]}')
     except ValueError as e:
         st.error(f"Error in prediction: {e}")
+
+# Menampilkan data pengguna yang diinput dalam tabel
+st.write("Data Pengguna yang Dimasukkan:")
+st.dataframe(pd.DataFrame([user_input]))
 
 # Tambahkan elemen HTML untuk output
 st.markdown("""
