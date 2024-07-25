@@ -106,6 +106,9 @@ user_input = {
     'Pin code': pin_code
 }
 
+# Pemetaan angka ke label
+label_mapping = {0: 'No', 1: 'Yes'}
+
 if st.button('Predict'):
     user_input_processed = preprocess_input(user_input)
     try:
@@ -113,3 +116,14 @@ if st.button('Predict'):
         st.write(f'Prediction: {prediction[0]}')
     except ValueError as e:
         st.error(f"Error in prediction: {e}")
+
+ # Informasi tambahan tentang prediksi
+    st.markdown("""
+        <div class="info-box">
+            <div class="info-title">Informasi Tentang Hasil Prediksi:</div>
+            <div class="info-content">
+                <p><strong>Yes:</strong> Pelanggan melakukan tindakan tertentu, seperti melakukan pembelian ulang, memberikan ulasan positif, atau merespons promosi.</p>
+                <p><strong>No:</strong> Pelanggan tidak melakukan tindakan tersebut, mungkin karena tidak puas dengan layanan, tidak tertarik, atau tidak menerima tawaran promosi.</p>
+            </div>
+        </div>
+    """, unsafe_allow_html=True)
