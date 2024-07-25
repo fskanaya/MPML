@@ -47,18 +47,18 @@ def preprocess_input(user_input):
 st.markdown("""
     <style>
     .main {
-        background-color: #FFC0CB; /* Light Pink background */
+        background-color: #F5F5F5; /* Light Gray background */
     }
     h1 {
-        color: #8A2BE2; /* Blue Violet color */
+        color: #333333; /* Dark Gray color */
         text-align: center;
         margin-bottom: 25px;
     }
     h3 {
-        color: #8A2BE2; /* Blue Violet color */
+        color: #333333; /* Dark Gray color */
     }
     .stButton>button {
-        background-color: #FF69B4; /* Hot Pink button */
+        background-color: #4B4B4B; /* Dark Gray button */
         color: white;
         padding: 10px 24px;
         border: none;
@@ -66,24 +66,12 @@ st.markdown("""
         cursor: pointer;
     }
     .stButton>button:hover {
-        background-color: #FF1493; /* Deep Pink on hover */
+        background-color: #2C2C2C; /* Darker Gray on hover */
     }
     .stNumberInput, .stSelectbox {
         margin-bottom: 20px;
     }
     </style>
-""", unsafe_allow_html=True)
-
-# Streamlit app layout
-st.title("Prediksi Feedback Pelanggan Online Food")
-
-st.markdown("""
-    <style>
-    .main {
-        background-color: #FFC0CB; /* Light Pink background */
-    }
-    </style>
-    <h3>Masukkan Data Pelanggan</h3>
 """, unsafe_allow_html=True)
 
 # Input pengguna
@@ -123,8 +111,3 @@ if st.button('Predict'):
 st.write("Data Pengguna yang Dimasukkan:")
 st.dataframe(pd.DataFrame([user_input]))
 
-# Tambahkan elemen HTML untuk output
-st.markdown("""
-    <h3>Output Prediksi</h3>
-    <p>Hasil prediksi akan ditampilkan di sini.</p>
-""", unsafe_allow_html=True)
