@@ -112,8 +112,6 @@ label_mapping = {0: 'No', 1: 'Yes'}
 if st.button('Predict'):
     user_input_processed = preprocess_input(user_input)
     try:
-        prediction = model.predict(user_input_processed)
-        st.write(f'Raw Prediction: {prediction[0]}')  # Debug output
         # Ganti angka dengan label yang sesuai
         prediction_label = label_mapping.get(prediction[0], 'Unknown')
         st.write(f'Prediction: {prediction_label}')
