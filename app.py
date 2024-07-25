@@ -2,10 +2,6 @@ import streamlit as st
 import pandas as pd
 import joblib
 from sklearn.preprocessing import StandardScaler, LabelEncoder
-from sklearn.compose import ColumnTransformer
-from sklearn.pipeline import Pipeline
-from sklearn.impute import SimpleImputer
-from sklearn.preprocessing import OneHotEncoder
 
 # Memuat model terbaik
 model = joblib.load('best_model.pkl')
@@ -24,16 +20,8 @@ categorical_features = ['Gender', 'Marital Status', 'Occupation', 'Educational Q
 numerical_features = ['Age', 'Family size']
 
 # Membuat encoders dan scaler
-label_encoders = {}
-for column in categorical_features:
-    le = LabelEncoder()
-    data[column] = data[column].astype(str)
-    le.fit(data[column])
-    data[column] = le.transform(data[column])
-    label_encoders[column] = le
-
-scaler = StandardScaler()
-data[numerical_features] = scaler.fit_transform(data[numerical_features])
+label_encoders = {column: LabelEncoder().fit(data[column].astype(str)) for column in categorical_features}
+scaler = StandardScaler().fit(data[numerical_features])
 
 # Fungsi untuk memproses input pengguna
 def preprocess_input(user_input):
