@@ -2,6 +2,10 @@ import streamlit as st
 import pandas as pd
 import joblib
 from sklearn.preprocessing import StandardScaler, LabelEncoder
+from sklearn.compose import ColumnTransformer
+from sklearn.pipeline import Pipeline
+from sklearn.impute import SimpleImputer
+from sklearn.preprocessing import OneHotEncoder
 
 # Memuat model terbaik
 model = joblib.load('best_model.pkl')
@@ -16,8 +20,12 @@ required_columns = ['Age', 'Gender', 'Marital Status', 'Occupation', 'Educationa
 data = data[required_columns]
 
 # Pra-pemrosesan data
+categorical_features = ['Gender', 'Marital Status', 'Occupation', 'Educational Qualifications']
+numerical_features = ['Age', 'Family size']
+
+# Membuat encoders dan scaler
 label_encoders = {}
-for column in data.select_dtypes(include=['object']).columns:
+for column in categorical_features:
     le = LabelEncoder()
     data[column] = data[column].astype(str)
     le.fit(data[column])
@@ -25,22 +33,22 @@ for column in data.select_dtypes(include=['object']).columns:
     label_encoders[column] = le
 
 scaler = StandardScaler()
-numeric_features = ['Age', 'Family size']
-data[numeric_features] = scaler.fit_transform(data[numeric_features])
+data[numerical_features] = scaler.fit_transform(data[numerical_features])
 
 # Fungsi untuk memproses input pengguna
 def preprocess_input(user_input):
-    processed_input = {col: [user_input.get(col, 'Unknown')] for col in required_columns}
-    for column in label_encoders:
+    processed_input = pd.DataFrame([user_input])
+    
+    # Pra-pemrosesan data
+    for column in categorical_features:
         if column in processed_input:
-            input_value = processed_input[column][0]
-            if input_value in label_encoders[column].classes_:
-                processed_input[column] = label_encoders[column].transform([input_value])
+            if processed_input[column][0] in label_encoders[column].classes_:
+                processed_input[column] = label_encoders[column].transform(processed_input[column])
             else:
                 # Jika nilai tidak dikenal, berikan nilai default seperti -1
-                processed_input[column] = [-1]
-    processed_input = pd.DataFrame(processed_input)
-    processed_input[numeric_features] = scaler.transform(processed_input[numeric_features])
+                processed_input[column] = -1
+    
+    processed_input[numerical_features] = scaler.transform(processed_input[numerical_features])
     return processed_input
 
 # CSS for styling
