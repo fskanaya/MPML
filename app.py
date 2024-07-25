@@ -113,20 +113,20 @@ if st.button('Predict'):
     user_input_processed = preprocess_input(user_input)
     try:
         prediction = model.predict(user_input_processed)
-        st.write(f'Prediction: {prediction[0]}')
-    except ValueError as e:
-        st.error(f"Error in prediction: {e}")
+        st.write(f'Raw Prediction: {prediction[0]}')  # Debug output
         # Ganti angka dengan label yang sesuai
         prediction_label = label_mapping.get(prediction[0], 'Unknown')
         st.write(f'Prediction: {prediction_label}')
-
- # Informasi tambahan tentang prediksi
-    st.markdown("""
-        <div class="info-box">
-            <div class="info-title">Informasi Tentang Hasil Prediksi:</div>
-            <div class="info-content">
-                <p><strong>Yes:</strong> Pelanggan melakukan tindakan tertentu, seperti melakukan pembelian ulang, memberikan ulasan positif, atau merespons promosi.</p>
-                <p><strong>No:</strong> Pelanggan tidak melakukan tindakan tersebut, mungkin karena tidak puas dengan layanan, tidak tertarik, atau tidak menerima tawaran promosi.</p>
+        
+        # Informasi tambahan tentang prediksi
+        st.markdown("""
+            <div class="info-box">
+                <div class="info-title">Informasi Tentang Hasil Prediksi:</div>
+                <div class="info-content">
+                    <p><strong>Yes:</strong> Pelanggan melakukan tindakan tertentu, seperti melakukan pembelian ulang, memberikan ulasan positif, atau merespons promosi.</p>
+                    <p><strong>No:</strong> Pelanggan tidak melakukan tindakan tersebut, mungkin karena tidak puas dengan layanan, tidak tertarik, atau tidak menerima tawaran promosi.</p>
+                </div>
             </div>
-        </div>
-    """, unsafe_allow_html=True)
+        """, unsafe_allow_html=True)
+    except ValueError as e:
+        st.error(f"Error in prediction: {e}")
