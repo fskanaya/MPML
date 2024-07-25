@@ -79,7 +79,7 @@ st.markdown("""
 st.markdown('<h1>Prediksi Feedback Pelanggan Online Food</h1>', unsafe_allow_html=True)
 
 # Input pengguna
-age = st.text_input('Age', min_value=18, max_value=100, step=1)
+age = st.number_input('Age', min_value=18, max_value=100, step=1)
 gender = st.radio('Gender', ['Male', 'Female'])
 marital_status = st.radio('Marital Status', ['Single', 'Married'])
 occupation = st.radio('Occupation', ['Student', 'Employee', 'Self Employed'])
