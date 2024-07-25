@@ -10,7 +10,7 @@ model = joblib.load('best_model.pkl')
 data = pd.read_csv('onlinefoods.csv')
 
 # Daftar kolom yang diperlukan selama pelatihan
-required_columns = ['Age', 'Gender', 'Marital Status', 'Occupation', 'Monthly Income', 'Educational Qualifications', 'Family size', 'latitude', 'longitude', 'Pin code']
+required_columns = ['Age', 'Gender', 'Marital Status', 'Occupation', 'Educational Qualifications', 'Family size']
 
 # Pastikan hanya kolom yang diperlukan ada
 data = data[required_columns]
@@ -25,7 +25,7 @@ for column in data.select_dtypes(include=['object']).columns:
     label_encoders[column] = le
 
 scaler = StandardScaler()
-numeric_features = ['Age', 'Family size', 'latitude', 'longitude', 'Pin code']
+numeric_features = ['Age', 'Family size']
 data[numeric_features] = scaler.fit_transform(data[numeric_features])
 
 # Fungsi untuk memproses input pengguna
@@ -41,31 +41,30 @@ def preprocess_input(user_input):
                 processed_input[column] = [-1]
     processed_input = pd.DataFrame(processed_input)
     processed_input[numeric_features] = scaler.transform(processed_input[numeric_features])
-    return processed_input
-# CSS for styling
+    return processed_input# CSS for styling
 st.markdown("""
     <style>
     .main {
-        background-color: #87CEEB;
+        background-color: #FFC0CB; /* Light Pink background */
     }
     h1 {
-        color: #4b4b4b;
+        color: #8A2BE2; /* Blue Violet color */
         text-align: center;
         margin-bottom: 25px;
     }
     h3 {
-        color: #4b4b4b;
+        color: #8A2BE2; /* Blue Violet color */
     }
     .stButton>button {
-        background-color: #4b4b4b;
-        color: black;
+        background-color: #FF69B4; /* Hot Pink button */
+        color: white;
         padding: 10px 24px;
         border: none;
         border-radius: 4px;
         cursor: pointer;
     }
     .stButton>button:hover {
-        background-color: #4b4b4b;
+        background-color: #FF1493; /* Deep Pink on hover */
     }
     .stNumberInput, .stSelectbox {
         margin-bottom: 20px;
@@ -73,13 +72,13 @@ st.markdown("""
     </style>
 """, unsafe_allow_html=True)
 
-# Antarmuka Streamlit
+# Streamlit app layout
 st.title("Prediksi Feedback Pelanggan Online Food")
 
 st.markdown("""
     <style>
     .main {
-        background-color: #87CEEB;
+        background-color: #FFC0CB; /* Light Pink background */
     }
     </style>
     <h3>Masukkan Data Pelanggan</h3>
