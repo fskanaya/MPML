@@ -74,6 +74,13 @@ st.markdown("""
     </style>
 """, unsafe_allow_html=True)
 
+# Streamlit app layout
+st.markdown('<h1>Prediksi Feedback Pelanggan Online Food</h1>', unsafe_allow_html=True)
+
+st.markdown("""
+    <h3>Masukkan Data Pelanggan</h3>
+""", unsafe_allow_html=True)
+
 # Input pengguna
 age = st.number_input('Age', min_value=18, max_value=100)
 gender = st.selectbox('Gender', ['Male', 'Female'])
