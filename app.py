@@ -7,10 +7,10 @@ from sklearn.preprocessing import StandardScaler, LabelEncoder
 model = joblib.load('best_model.pkl')
 
 # Memuat data untuk pengkodean dan penskalaan
-data = pd.read_csv('onlinefoods.csv')
+data = pd.read_csv('onlinefoodss.csv')
 
 # Daftar kolom yang diperlukan selama pelatihan
-required_columns = ['Age', 'Gender', 'Marital Status', 'Occupation','Monthly Income', 'Educational Qualifications', 'Family size', 'latitude', 'longitude', 'Pin code']
+required_columns = ['Age', 'Gender', 'Marital Status', 'Occupation', 'Educational Qualifications', 'Family size', ]
 
 # Pastikan hanya kolom yang diperlukan ada
 data = data[required_columns]
@@ -25,7 +25,7 @@ for column in data.select_dtypes(include=['object']).columns:
     label_encoders[column] = le
 
 scaler = StandardScaler()
-numeric_features = ['Age', 'Family size', 'Monthly Income', 'Pin code', 'latitude', 'longitude']
+numeric_features = ['Age', 'Family size', 'Monthly Income']
 data[numeric_features] = scaler.fit_transform(data[numeric_features])
 
 # Fungsi untuk memproses input pengguna
@@ -87,25 +87,17 @@ age = st.number_input('Age', min_value=18, max_value=100, step=1)
 gender = st.selectbox('Gender', ['Male', 'Female'])
 marital_status = st.selectbox('Marital Status', ['Single', 'Married'])
 occupation = st.selectbox('Occupation', ['Student', 'Employee', 'Self Employed'])
-monthly_income = st.number_input('Monthly Income', min_value=0, step=1)
 educational_qualifications = st.selectbox('Educational Qualifications', ['Under Graduate', 'Graduate', 'Post Graduate'])
 family_size = st.number_input('Family size', min_value=1, max_value=20, step=1)
-latitude = st.number_input('Latitude', format="%.6f")
-longitude = st.number_input('Longitude', format="%.6f")
-pin_code = st.number_input('Pin code', min_value=0, step=1)
 
 user_input = {
     'Age': age,
     'Gender': gender,
     'Marital Status': marital_status,
     'Occupation': occupation,
-    'Monthly Income': monthly_income,
     'Educational Qualifications': educational_qualifications,
     'Family size': family_size,
-    'latitude': latitude,
-    'longitude': longitude,
-    'Pin code': pin_code
-}
+   }
 
 # Pemetaan angka ke label
 label_mapping = {0: 'No', 1: 'Yes'}
