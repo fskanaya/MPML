@@ -46,32 +46,35 @@ def preprocess_input(user_input):
 st.markdown("""
     <style>
     .main {
-        background-color: #F5F5F5; /* Light Grey background */
+        background-color: #E0E0E0; /* Neutral Light Gray background */
     }
     h1 {
-        color: #333333; /* Dark Grey color */
+        color: #333333; /* Dark Gray color */
         text-align: center;
         margin-bottom: 20px;
     }
     h3 {
-        color: #333333; /* Dark Grey color */
+        color: #666666; /* Medium Gray color */
+        text-align: center;
     }
     .stButton>button {
-        background-color: #007BFF; /* Bootstrap Blue button */
+        background-color: #4CAF50; /* Green button */
         color: white;
-        padding: 10px 20px;
+        padding: 12px 25px;
         border: none;
-        border-radius: 4px;
+        border-radius: 5px;
         cursor: pointer;
+        font-size: 16px;
     }
     .stButton>button:hover {
-        background-color: #0056b3; /* Darker Blue on hover */
+        background-color: #45a049; /* Darker Green on hover */
     }
     .stNumberInput, .stSelectbox {
         margin-bottom: 15px;
     }
     </style>
 """, unsafe_allow_html=True)
+
 # Streamlit app layout
 st.markdown('<h1>Prediksi Feedback Pelanggan Online Food</h1>', unsafe_allow_html=True)
 
