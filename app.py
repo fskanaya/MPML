@@ -46,7 +46,7 @@ def preprocess_input(user_input):
 st.markdown("""
     <style>
     .main {
-        background-color: #E0E0E0; /* Neutral Light Gray background */
+        background-color: #F4F4F4; /* Light Gray background */
     }
     h1 {
         color: #333333; /* Dark Gray color */
@@ -54,7 +54,7 @@ st.markdown("""
         margin-bottom: 20px;
     }
     h3 {
-        color: #666666; /* Medium Gray color */
+        color: #555555; /* Medium Gray color */
         text-align: center;
     }
     .stButton>button {
@@ -72,19 +72,19 @@ st.markdown("""
     .stNumberInput, .stSelectbox {
         margin-bottom: 15px;
     }
+    
     </style>
 """, unsafe_allow_html=True)
-
 # Streamlit app layout
 st.markdown('<h1>Prediksi Feedback Pelanggan Online Food</h1>', unsafe_allow_html=True)
 
 # Input pengguna
 age = st.number_input('Age', min_value=18, max_value=100, step=1)
-gender = st.selectbox('Gender', ['Male', 'Female'])
-marital_status = st.selectbox('Marital Status', ['Single', 'Married'])
-occupation = st.selectbox('Occupation', ['Student', 'Employee', 'Self Employed'])
+gender = st.radio('Gender', ['Male', 'Female'])
+marital_status = st.radio('Marital Status', ['Single', 'Married'])
+occupation = st.radio('Occupation', ['Student', 'Employee', 'Self Employed'])
 monthly_income = st.number_input('Monthly Income', min_value=0, step=1)
-educational_qualifications = st.selectbox('Educational Qualifications', ['Under Graduate', 'Graduate', 'Post Graduate'])
+educational_qualifications = st.radio('Educational Qualifications', ['Under Graduate', 'Graduate', 'Post Graduate'])
 family_size = st.number_input('Family size', min_value=1, max_value=20, step=1)
 latitude = st.number_input('Latitude', format="%.6f")
 longitude = st.number_input('Longitude', format="%.6f")
