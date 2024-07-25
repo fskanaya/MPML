@@ -116,6 +116,9 @@ if st.button('Predict'):
         st.write(f'Prediction: {prediction[0]}')
     except ValueError as e:
         st.error(f"Error in prediction: {e}")
+        # Ganti angka dengan label yang sesuai
+        prediction_label = label_mapping.get(prediction[0], 'Unknown')
+        st.write(f'Prediction: {prediction_label}')
 
  # Informasi tambahan tentang prediksi
     st.markdown("""
