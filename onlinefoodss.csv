@@ -1,0 +1,389 @@
+Age,Gender,Marital Status,Occupation,Educational Qualifications,Family size,Output,Feedback,
+20,Female,Single,Student,Post Graduate,4,Yes,Positive,Yes
+24,Female,Single,Student,Graduate,3,Yes,Positive,Yes
+22,Male,Single,Student,Post Graduate,3,Yes,Negative ,Yes
+22,Female,Single,Student,Graduate,6,Yes,Positive,Yes
+22,Male,Single,Student,Post Graduate,4,Yes,Positive,Yes
+27,Female,Married,Employee,Post Graduate,2,Yes,Positive,Yes
+22,Male,Single,Student,Graduate,3,Yes,Positive,Yes
+24,Female,Single,Student,Post Graduate,3,Yes,Positive,Yes
+23,Female,Single,Student,Post Graduate,2,Yes,Positive,Yes
+23,Female,Single,Student,Post Graduate,4,Yes,Positive,Yes
+22,Female,Single,Student,Post Graduate,5,Yes,Positive,Yes
+23,Male,Single,Student,Post Graduate,2,Yes,Negative ,Yes
+23,Male,Single,Student,Post Graduate,5,Yes,Positive,Yes
+21,Male,Single,Student,Graduate,4,Yes,Positive,Yes
+23,Female,Single,Self Employeed,Post Graduate,5,Yes,Positive,Yes
+24,Female,Single,Student,Post Graduate,6,Yes,Positive,Yes
+28,Female,Single,Employee,Post Graduate,2,Yes,Positive,Yes
+23,Female,Single,Student,Graduate,3,Yes,Negative ,Yes
+25,Male,Single,Student,Graduate,4,Yes,Negative ,Yes
+21,Female,Single,Student,Post Graduate,1,Yes,Positive,Yes
+24,Male,Single,Student,Post Graduate,3,Yes,Positive,Yes
+22,Male,Single,Student,Post Graduate,4,Yes,Positive,Yes
+22,Female,Single,Student,Graduate,4,Yes,Positive,Yes
+23,Male,Single,Student,Graduate,4,Yes,Positive,Yes
+21,Male,Single,Student,Post Graduate,3,Yes,Positive,Yes
+25,Male,Single,Student,Post Graduate,3,Yes,Positive,Yes
+22,Female,Single,Student,Post Graduate,5,Yes,Positive,Yes
+22,Male,Single,Student,Post Graduate,3,Yes,Positive,Yes
+23,Female,Single,Employee,Graduate,3,Yes,Positive,Yes
+22,Male,Single,Student,Post Graduate,4,Yes,Positive,Yes
+22,Female,Single,Employee,Graduate,5,Yes,Positive,Yes
+22,Male,Single,Student,Post Graduate,4,Yes,Positive,Yes
+25,Male,Married,Employee,Ph.D,4,Yes,Positive,Yes
+22,Female,Single,Student,Post Graduate,5,Yes,Positive,Yes
+22,Female,Single,Student,Post Graduate,2,Yes,Positive,Yes
+25,Male,Single,Student,Post Graduate,3,Yes,Positive,Yes
+25,Male,Single,Student,Post Graduate,5,No,Positive,No
+32,Female,Prefer not to say,House wife,Graduate,5,Yes,Negative ,Yes
+23,Female,Single,Student,Post Graduate,3,Yes,Positive,Yes
+23,Female,Single,Student,Post Graduate,4,Yes,Positive,Yes
+30,Male,Married,Self Employeed,Uneducated,4,Yes,Negative ,Yes
+23,Male,Single,Student,Graduate,3,Yes,Positive,Yes
+23,Male,Single,Student,Post Graduate,4,Yes,Positive,Yes
+22,Female,Single,Student,Post Graduate,5,Yes,Positive,Yes
+22,Male,Single,Student,Graduate,5,Yes,Positive,Yes
+27,Female,Married,Self Employeed,Post Graduate,2,Yes,Positive,Yes
+24,Female,Single,Student,Post Graduate,3,Yes,Positive,Yes
+23,Male,Single,Student,Post Graduate,2,Yes,Positive,Yes
+23,Female,Single,Student,Graduate,3,Yes,Negative ,Yes
+22,Female,Single,Student,Post Graduate,5,Yes,Positive,Yes
+23,Female,Single,Student,Graduate,5,Yes,Positive,Yes
+23,Female,Single,Student,Post Graduate,2,Yes,Positive,Yes
+24,Male,Single,Student,Post Graduate,3,Yes,Positive,Yes
+25,Male,Single,Student,Post Graduate,2,Yes,Positive,Yes
+22,Male,Single,Student,Post Graduate,3,Yes,Positive,Yes
+28,Female,Married,Student,Graduate,2,Yes,Positive,Yes
+22,Female,Single,Student,Post Graduate,1,Yes,Positive,Yes
+24,Female,Single,Student,Graduate,3,Yes,Positive,Yes
+31,Male,Married,Employee,Ph.D,5,Yes,Positive,Yes
+25,Male,Single,Student,Post Graduate,4,Yes,Positive,Yes
+23,Male,Single,Student,Post Graduate,5,Yes,Positive,Yes
+22,Male,Single,Student,Post Graduate,3,Yes,Positive,Yes
+23,Male,Single,Student,Post Graduate,1,Yes,Positive,Yes
+23,Male,Single,Student,Graduate,4,Yes,Positive,Yes
+23,Female,Single,Student,Post Graduate,2,Yes,Positive,Yes
+25,Male,Single,Student,Post Graduate,6,Yes,Positive,Yes
+24,Male,Single,Employee,Graduate,4,Yes,Positive,Yes
+23,Female,Single,Student,Post Graduate,4,Yes,Positive,Yes
+23,Female,Single,Student,Post Graduate,4,Yes,Positive,Yes
+24,Female,Married,Employee,Ph.D,4,Yes,Positive,Yes
+22,Male,Single,Student,Graduate,4,Yes,Positive,Yes
+24,Female,Single,Student,Post Graduate,3,No,Positive,No
+25,Female,Single,Student,Post Graduate,3,Yes,Positive,Yes
+23,Male,Single,Student,Post Graduate,2,Yes,Positive,Yes
+26,Male,Single,Student,Post Graduate,4,Yes,Positive,Yes
+24,Female,Single,Student,Post Graduate,3,Yes,Positive,Yes
+26,Male,Single,Student,Post Graduate,4,Yes,Positive,Yes
+21,Male,Single,Student,Graduate,4,Yes,Positive,Yes
+22,Female,Single,Student,Post Graduate,3,Yes,Positive,Yes
+24,Male,Single,Student,Post Graduate,5,Yes,Positive,Yes
+24,Male,Single,Student,Post Graduate,4,Yes,Positive,Yes
+23,Female,Single,Student,Post Graduate,3,Yes,Positive,Yes
+23,Male,Single,Student,Post Graduate,3,Yes,Positive,Yes
+22,Male,Single,Student,Post Graduate,3,Yes,Positive,Yes
+23,Male,Single,Student,Post Graduate,3,Yes,Positive,Yes
+24,Female,Single,Student,Post Graduate,4,Yes,Positive,Yes
+24,Male,Single,Student,Post Graduate,5,Yes,Positive,Yes
+25,Male,Single,Student,Graduate,1,Yes,Positive,Yes
+25,Male,Single,Student,Post Graduate,5,No,Positive,No
+28,Male,Married,Self Employeed,Graduate,2,No,Negative ,No
+27,Female,Prefer not to say,Employee,Post Graduate,5,No,Positive,No
+26,Male,Single,Self Employeed,Ph.D,1,No,Positive,No
+22,Male,Single,Student,Post Graduate,2,Yes,Positive,Yes
+24,Female,Single,Student,Post Graduate,3,Yes,Positive,Yes
+23,Male,Single,Student,Post Graduate,1,Yes,Positive,Yes
+25,Male,Single,Student,Graduate,1,Yes,Positive,Yes
+23,Female,Single,Student,Graduate,5,Yes,Positive,Yes
+23,Female,Single,Student,Graduate,5,Yes,Positive,Yes
+26,Male,Married,Employee,Graduate,5,No,Positive,No
+32,Female,Married,House wife,Uneducated,3,No,Positive,No
+24,Female,Single,Student,Post Graduate,3,No,Positive,No
+23,Male,Single,Student,Post Graduate,2,Yes,Positive,Yes
+22,Female,Single,Employee,Graduate,3,Yes,Positive,Yes
+24,Female,Single,Student,Ph.D,3,Yes,Positive,Yes
+26,Male,Single,Employee,Graduate,2,Yes,Negative ,Yes
+28,Male,Married,Employee,Graduate,3,No,Positive,No
+26,Male,Single,Employee,Post Graduate,2,No,Positive,No
+25,Male,Single,Student,Post Graduate,1,Yes,Positive,Yes
+25,Male,Single,Employee,Graduate,2,No,Positive,No
+18,Male,Single,Student,Graduate,5,Yes,Positive,Yes
+21,Male,Single,Student,Post Graduate,4,Yes,Positive,Yes
+25,Male,Single,Student,Post Graduate,1,Yes,Positive,Yes
+25,Male,Single,Student,Post Graduate,2,Yes,Positive,Yes
+23,Female,Single,Student,Graduate,5,Yes,Positive,Yes
+23,Male,Single,Employee,Post Graduate,2,Yes,Positive,Yes
+25,Female,Married,Employee,Graduate,4,No,Negative ,No
+31,Female,Married,House wife,School,5,Yes,Positive,Yes
+24,Male,Prefer not to say,Self Employeed,Ph.D,2,No,Positive,No
+32,Female,Married,Employee,Graduate,5,Yes,Positive,Yes
+25,Male,Single,Employee,Graduate,3,Yes,Positive,Yes
+27,Female,Married,Self Employeed,Graduate,5,No,Positive,No
+26,Male,Single,Self Employeed,Graduate,3,Yes,Positive,Yes
+26,Female,Single,Self Employeed,Post Graduate,3,Yes,Positive,Yes
+32,Male,Married,Employee,Ph.D,5,Yes,Negative ,Yes
+24,Male,Married,Self Employeed,Ph.D,6,No,Negative ,No
+27,Female,Married,Self Employeed,Graduate,3,Yes,Positive,Yes
+23,Male,Single,Student,Post Graduate,3,Yes,Positive,Yes
+25,Male,Single,Student,Post Graduate,4,Yes,Positive,Yes
+23,Male,Single,Student,Post Graduate,3,Yes,Positive,Yes
+23,Female,Single,Student,Post Graduate,4,Yes,Positive,Yes
+28,Male,Married,Employee,Post Graduate,3,Yes,Positive,Yes
+32,Female,Married,Employee,Graduate,1,No,Positive,No
+23,Male,Single,Student,Post Graduate,2,Yes,Positive,Yes
+19,Male,Single,Student,Graduate,2,No,Negative ,No
+19,Female,Single,Student,Graduate,4,Yes,Positive,Yes
+27,Female,Married,Employee,Post Graduate,2,No,Positive,No
+25,Male,Single,Self Employeed,Graduate,3,Yes,Positive,Yes
+33,Male,Married,Employee,Ph.D,5,No,Negative ,No
+26,Female,Single,Employee,Graduate,3,Yes,Positive,Yes
+22,Female,Single,Student,Post Graduate,4,Yes,Positive,Yes
+23,Male,Single,Student,Post Graduate,3,No,Positive,No
+22,Female,Single,Student,Graduate,3,Yes,Negative ,Yes
+25,Male,Married,Employee,Graduate,2,Yes,Positive,Yes
+30,Female,Married,House wife,School,5,Yes,Positive,Yes
+24,Male,Single,Student,Post Graduate,3,No,Negative ,No
+25,Male,Single,Employee,Post Graduate,3,Yes,Positive,Yes
+23,Male,Single,Student,Post Graduate,3,Yes,Positive,Yes
+24,Female,Single,Student,Post Graduate,4,Yes,Positive,Yes
+32,Male,Married,Employee,Graduate,4,Yes,Positive,Yes
+22,Male,Single,Student,Post Graduate,4,Yes,Positive,Yes
+23,Male,Single,Student,Post Graduate,3,Yes,Positive,Yes
+23,Female,Single,Student,Post Graduate,4,Yes,Positive,Yes
+20,Male,Single,Student,Graduate,2,Yes,Positive,Yes
+21,Male,Single,Student,Graduate,2,Yes,Positive,Yes
+24,Female,Married,Self Employeed,Graduate,5,Yes,Positive,Yes
+23,Female,Single,Student,Post Graduate,4,Yes,Positive,Yes
+25,Male,Single,Employee,Post Graduate,3,Yes,Positive,Yes
+32,Female,Married,House wife,Graduate,3,Yes,Positive,Yes
+27,Male,Married,Employee,Ph.D,5,No,Negative ,No
+20,Female,Single,Student,Graduate,2,Yes,Positive,Yes
+21,Male,Single,Student,Graduate,2,Yes,Positive,Yes
+26,Male,Single,Employee,Post Graduate,3,No,Negative ,No
+25,Male,Single,Employee,Graduate,4,Yes,Positive,Yes
+26,Male,Single,Employee,Post Graduate,3,Yes,Positive,Yes
+26,Female,Married,Employee,Graduate,3,Yes,Positive,Yes
+27,Male,Single,Employee,Ph.D,4,No,Positive,No
+27,Female,Single,Student,Ph.D,5,No,Negative ,No
+24,Female,Single,Student,Post Graduate,5,Yes,Positive,Yes
+25,Male,Married,Self Employeed,School,2,Yes,Positive,Yes
+20,Male,Single,Student,Graduate,2,No,Negative ,No
+22,Male,Single,Student,Post Graduate,1,Yes,Positive,Yes
+26,Female,Married,Student,Ph.D,3,Yes,Positive,Yes
+27,Male,Prefer not to say,Employee,Post Graduate,1,Yes,Positive,Yes
+25,Female,Single,Student,Post Graduate,3,Yes,Positive,Yes
+24,Male,Single,Employee,Graduate,2,Yes,Positive,Yes
+23,Female,Single,Employee,Graduate,6,Yes,Positive,Yes
+22,Male,Single,Student,Graduate,2,No,Positive,No
+26,Male,Married,Self Employeed,Post Graduate,3,No,Negative ,No
+26,Male,Single,Employee,Post Graduate,1,Yes,Negative ,Yes
+25,Female,Married,Self Employeed,Post Graduate,3,No,Positive,No
+29,Female,Married,Employee,Graduate,3,No,Positive,No
+23,Male,Single,Student,Graduate,3,Yes,Negative ,Yes
+22,Female,Single,Employee,Graduate,4,Yes,Positive,Yes
+22,Male,Single,Student,Graduate,2,No,Positive,No
+32,Female,Married,House wife,School,5,Yes,Positive,Yes
+28,Male,Married,Employee,Post Graduate,1,Yes,Positive,Yes
+22,Male,Single,Student,Post Graduate,2,Yes,Positive,Yes
+25,Male,Single,Employee,Graduate,2,Yes,Positive,Yes
+26,Female,Married,Employee,Post Graduate,2,No,Negative ,No
+31,Male,Married,Self Employeed,School,6,Yes,Positive,Yes
+24,Male,Single,Student,Post Graduate,3,No,Negative ,No
+24,Male,Single,Employee,Post Graduate,2,Yes,Positive,Yes
+31,Female,Married,Employee,Ph.D,5,Yes,Positive,Yes
+26,Male,Single,Employee,Graduate,2,Yes,Positive,Yes
+24,Female,Married,Self Employeed,Graduate,2,Yes,Positive,Yes
+22,Female,Single,Student,Graduate,3,Yes,Positive,Yes
+19,Male,Single,Student,Graduate,6,Yes,Positive,Yes
+25,Male,Married,Employee,Post Graduate,6,Yes,Positive,Yes
+23,Female,Married,House wife,School,6,Yes,Positive,Yes
+23,Female,Single,Student,Graduate,2,No,Negative ,No
+23,Male,Single,Student,Post Graduate,2,Yes,Positive,Yes
+24,Male,Single,Student,Post Graduate,5,Yes,Positive,Yes
+22,Female,Single,Employee,Graduate,4,Yes,Positive,Yes
+26,Male,Married,Employee,Graduate,4,Yes,Positive,Yes
+25,Female,Single,Student,Ph.D,3,Yes,Positive,Yes
+20,Male,Single,Student,Graduate,2,Yes,Positive,Yes
+29,Male,Married,Employee,Graduate,4,No,Negative ,No
+23,Female,Single,Student,Graduate,1,Yes,Positive,Yes
+25,Male,Single,Self Employeed,Graduate,2,Yes,Positive,Yes
+29,Female,Married,Employee,Graduate,4,No,Negative ,No
+27,Male,Married,Self Employeed,Graduate,6,No,Negative ,No
+25,Male,Single,Self Employeed,Graduate,3,Yes,Positive,Yes
+21,Male,Single,Student,Graduate,2,No,Negative ,No
+23,Male,Single,Student,Graduate,3,Yes,Positive,Yes
+24,Female,Single,Employee,Post Graduate,4,Yes,Positive,Yes
+32,Male,Married,Self Employeed,School,3,Yes,Negative ,Yes
+28,Male,Married,Employee,Post Graduate,5,Yes,Positive,Yes
+26,Male,Single,Employee,Graduate,2,No,Negative ,No
+31,Female,Married,House wife,Graduate,5,Yes,Positive,Yes
+27,Female,Married,Self Employeed,Graduate,3,Yes,Positive,Yes
+21,Female,Single,Student,Post Graduate,1,Yes,Positive,Yes
+23,Female,Single,Student,Graduate,2,No,Positive,No
+26,Male,Married,Employee,Graduate,4,No,Positive,No
+32,Male,Married,Employee,Graduate,5,Yes,Positive,Yes
+25,Female,Married,Student,Post Graduate,2,Yes,Positive,Yes
+28,Male,Single,Self Employeed,Post Graduate,2,Yes,Positive,Yes
+21,Female,Single,Student,Post Graduate,3,Yes,Positive,Yes
+24,Male,Single,Student,Post Graduate,2,Yes,Positive,Yes
+26,Female,Married,Self Employeed,Graduate,5,No,Negative ,No
+32,Male,Married,Employee,Graduate,3,Yes,Positive,Yes
+29,Male,Single,Self Employeed,Graduate,6,Yes,Positive,Yes
+21,Male,Single,Student,Graduate,5,Yes,Positive,Yes
+24,Female,Single,Self Employeed,Post Graduate,3,No,Negative ,No
+26,Male,Prefer not to say,Self Employeed,Post Graduate,2,Yes,Positive,Yes
+25,Male,Married,Employee,Ph.D,3,Yes,Positive,Yes
+29,Male,Single,Employee,Graduate,3,No,Negative ,No
+22,Male,Single,Student,Graduate,3,Yes,Positive,Yes
+24,Male,Single,Student,Graduate,2,Yes,Positive,Yes
+27,Male,Married,Employee,Graduate,2,Yes,Positive,Yes
+23,Female,Single,Student,Post Graduate,3,No,Positive,No
+32,Male,Married,Employee,Post Graduate,6,Yes,Positive,Yes
+22,Female,Single,Student,Graduate,2,Yes,Positive,Yes
+28,Male,Married,Employee,Graduate,3,Yes,Positive,Yes
+23,Female,Single,Student,Post Graduate,2,Yes,Positive,Yes
+30,Male,Married,Self Employeed,Graduate,1,No,Negative ,No
+21,Male,Single,Student,Graduate,3,Yes,Positive,Yes
+26,Female,Married,Employee,Graduate,6,No,Negative ,No
+25,Male,Single,Self Employeed,School,3,Yes,Positive,Yes
+31,Male,Prefer not to say,Employee,Graduate,1,No,Negative ,No
+23,Female,Single,Employee,Post Graduate,2,Yes,Positive,Yes
+29,Female,Married,Employee,Ph.D,3,Yes,Positive,Yes
+21,Male,Single,Student,Graduate,6,Yes,Positive,Yes
+20,Male,Single,Student,Graduate,3,Yes,Positive,Yes
+22,Male,Single,Employee,Graduate,2,Yes,Positive,Yes
+30,Female,Married,House wife,School,6,No,Positive,No
+27,Male,Married,Self Employeed,Graduate,3,Yes,Positive,Yes
+23,Male,Single,Student,Post Graduate,2,No,Negative ,No
+30,Male,Married,Self Employeed,School,6,No,Negative ,No
+23,Male,Single,Student,Post Graduate,3,Yes,Positive,Yes
+28,Female,Married,Employee,Post Graduate,6,No,Negative ,No
+30,Male,Married,Self Employeed,Graduate,6,Yes,Positive,Yes
+24,Female,Married,Employee,Post Graduate,2,Yes,Negative ,Yes
+21,Male,Single,Student,Graduate,2,No,Negative ,No
+23,Female,Prefer not to say,Employee,Graduate,3,No,Negative ,No
+25,Male,Married,Self Employeed,Post Graduate,4,Yes,Positive,Yes
+24,Female,Single,Employee,Graduate,2,Yes,Positive,Yes
+26,Male,Married,Employee,Graduate,3,No,Negative ,No
+25,Female,Single,Employee,Post Graduate,2,Yes,Positive,Yes
+22,Male,Single,Student,Graduate,3,Yes,Positive,Yes
+26,Female,Single,Employee,Post Graduate,2,Yes,Positive,Yes
+23,Male,Single,Employee,Graduate,2,Yes,Positive,Yes
+21,Female,Single,Employee,Graduate,2,No,Negative ,No
+25,Male,Married,Self Employeed,Graduate,3,Yes,Positive,Yes
+24,Female,Married,Employee,Post Graduate,2,Yes,Positive,Yes
+22,Male,Married,Student,Graduate,2,Yes,Positive,Yes
+23,Female,Single,Student,Post Graduate,4,Yes,Positive,Yes
+24,Male,Married,Employee,Post Graduate,3,Yes,Positive,Yes
+22,Female,Single,Student,Graduate,2,Yes,Positive,Yes
+30,Male,Married,Employee,Graduate,5,No,Negative ,No
+23,Female,Prefer not to say,Employee,Graduate,4,Yes,Positive,Yes
+19,Male,Single,Student,Graduate,6,Yes,Positive,Yes
+21,Female,Single,Student,Graduate,2,Yes,Positive,Yes
+23,Male,Single,Student,Graduate,4,Yes,Positive,Yes
+24,Female,Single,Employee,Graduate,3,Yes,Positive,Yes
+26,Female,Married,Employee,Post Graduate,2,No,Positive,No
+26,Female,Single,Student,Ph.D,2,Yes,Positive,Yes
+25,Female,Single,Student,Graduate,2,Yes,Positive,Yes
+28,Female,Married,Employee,Graduate,5,No,Negative ,No
+25,Female,Single,Student,Post Graduate,3,Yes,Positive,Yes
+20,Female,Single,Student,Graduate,2,Yes,Positive,Yes
+27,Female,Married,Self Employeed,Graduate,6,No,Positive,No
+25,Female,Married,Employee,Graduate,3,No,Positive,No
+24,Female,Single,Student,Post Graduate,5,No,Negative ,No
+25,Female,Married,Employee,Graduate,1,No,Negative ,No
+25,Female,Prefer not to say,Employee,Post Graduate,3,No,Negative ,No
+24,Female,Married,Student,Ph.D,5,Yes,Positive,Yes
+24,Male,Single,Student,Post Graduate,3,Yes,Positive,Yes
+22,Male,Single,Employee,Graduate,1,Yes,Positive,Yes
+28,Male,Single,Employee,Post Graduate,2,No,Negative ,No
+25,Female,Single,Employee,Post Graduate,6,No,Negative ,No
+22,Male,Single,Student,Post Graduate,3,Yes,Negative ,Yes
+22,Female,Single,Student,Graduate,6,Yes,Positive,Yes
+22,Male,Single,Student,Post Graduate,4,Yes,Positive,Yes
+27,Female,Married,Employee,Post Graduate,2,Yes,Positive,Yes
+22,Male,Single,Student,Graduate,3,Yes,Positive,Yes
+24,Female,Single,Student,Post Graduate,3,Yes,Positive,Yes
+23,Female,Single,Student,Post Graduate,2,Yes,Positive,Yes
+23,Female,Single,Student,Post Graduate,4,Yes,Positive,Yes
+22,Female,Single,Student,Post Graduate,5,Yes,Positive,Yes
+23,Male,Single,Student,Post Graduate,2,Yes,Negative ,Yes
+32,Male,Married,Employee,Graduate,5,Yes,Positive,Yes
+25,Female,Married,Student,Post Graduate,2,Yes,Positive,Yes
+28,Male,Single,Self Employeed,Post Graduate,2,Yes,Positive,Yes
+21,Female,Single,Student,Post Graduate,3,Yes,Positive,Yes
+24,Male,Single,Student,Post Graduate,2,Yes,Positive,Yes
+26,Female,Married,Self Employeed,Graduate,5,No,Negative ,No
+32,Male,Married,Employee,Graduate,3,Yes,Positive,Yes
+29,Male,Single,Self Employeed,Graduate,6,Yes,Positive,Yes
+21,Male,Single,Student,Graduate,5,Yes,Positive,Yes
+24,Female,Single,Self Employeed,Post Graduate,3,No,Negative ,No
+26,Male,Prefer not to say,Self Employeed,Post Graduate,2,Yes,Positive,Yes
+21,Male,Married,Employee,Ph.D,3,Yes,Positive,Yes
+29,Male,Single,Employee,Graduate,3,No,Negative ,No
+22,Male,Single,Student,Graduate,3,Yes,Positive,Yes
+24,Male,Single,Student,Graduate,2,Yes,Positive,Yes
+27,Male,Married,Employee,Graduate,2,Yes,Positive,Yes
+23,Female,Single,Student,Post Graduate,3,No,Positive,No
+32,Male,Married,Employee,Post Graduate,6,Yes,Positive,Yes
+22,Female,Single,Student,Graduate,2,Yes,Positive,Yes
+22,Female,Single,Employee,Graduate,4,Yes,Positive,Yes
+26,Male,Married,Employee,Graduate,4,Yes,Positive,Yes
+25,Female,Single,Student,Ph.D,3,Yes,Positive,Yes
+20,Male,Single,Student,Graduate,2,Yes,Positive,Yes
+29,Male,Married,Employee,Graduate,4,No,Negative ,No
+23,Female,Single,Student,Graduate,1,Yes,Positive,Yes
+25,Male,Single,Self Employeed,Graduate,2,Yes,Positive,Yes
+29,Female,Married,Employee,Graduate,4,No,Negative ,No
+27,Male,Married,Self Employeed,Graduate,6,No,Positive,No
+25,Male,Single,Self Employeed,Graduate,3,Yes,Positive,Yes
+21,Male,Single,Student,Graduate,2,No,Negative ,No
+23,Male,Single,Student,Graduate,3,Yes,Positive,Yes
+24,Female,Single,Employee,Post Graduate,4,Yes,Positive,Yes
+22,Male,Married,Self Employeed,School,3,Yes,Negative ,Yes
+28,Male,Married,Employee,Post Graduate,5,Yes,Positive,Yes
+26,Male,Single,Employee,Graduate,2,No,Negative ,No
+22,Female,Single,Employee,Graduate,4,Yes,Positive,Yes
+26,Male,Married,Employee,Graduate,4,Yes,Positive,Yes
+25,Female,Single,Student,Ph.D,3,Yes,Positive,Yes
+20,Male,Single,Student,Graduate,2,Yes,Positive,Yes
+29,Male,Married,Employee,Graduate,4,No,Negative ,No
+23,Female,Single,Student,Graduate,1,Yes,Positive,Yes
+25,Male,Single,Self Employeed,Graduate,2,Yes,Positive,Yes
+29,Female,Married,Employee,Graduate,4,No,Positive,No
+27,Male,Married,Self Employeed,Graduate,6,No,Positive,No
+25,Male,Single,Self Employeed,Graduate,3,Yes,Positive,Yes
+21,Male,Single,Student,Graduate,2,No,Positive,No
+24,Male,Single,Student,Post Graduate,2,Yes,Positive,Yes
+26,Female,Married,Self Employeed,Graduate,5,No,Negative ,No
+32,Male,Married,Employee,Graduate,3,Yes,Positive,Yes
+29,Male,Single,Self Employeed,Graduate,6,Yes,Positive,Yes
+21,Male,Single,Student,Graduate,5,Yes,Positive,Yes
+24,Female,Single,Self Employeed,Post Graduate,3,No,Negative ,No
+26,Male,Prefer not to say,Self Employeed,Post Graduate,2,Yes,Positive,Yes
+31,Male,Married,Employee,Ph.D,3,Yes,Positive,Yes
+29,Male,Single,Employee,Graduate,3,No,Negative ,No
+22,Male,Single,Student,Graduate,3,Yes,Positive,Yes
+24,Male,Single,Student,Graduate,2,Yes,Positive,Yes
+27,Male,Married,Employee,Graduate,2,Yes,Positive,Yes
+23,Female,Single,Student,Post Graduate,3,No,Positive,No
+30,Male,Married,Employee,Post Graduate,6,Yes,Positive,Yes
+22,Female,Single,Student,Graduate,2,Yes,Positive,Yes
+28,Male,Married,Employee,Graduate,3,Yes,Positive,Yes
+23,Female,Single,Student,Post Graduate,2,Yes,Positive,Yes
+30,Male,Married,Self Employeed,Graduate,1,No,Negative ,No
+21,Male,Single,Student,Graduate,3,Yes,Negative ,Yes
+26,Female,Married,Employee,Graduate,6,No,Negative ,No
+25,Male,Single,Self Employeed,School,3,Yes,Positive,Yes
+31,Male,Prefer not to say,Employee,Graduate,1,No,Negative ,No
+23,Female,Single,Employee,Post Graduate,2,Yes,Positive,Yes
+22,Male,Single,Student,Post Graduate,4,Yes,Positive,Yes
+27,Female,Married,Employee,Post Graduate,2,Yes,Positive,Yes
+22,Male,Single,Student,Graduate,3,Yes,Positive,Yes
+24,Female,Single,Student,Post Graduate,3,Yes,Positive,Yes
+23,Female,Single,Student,Post Graduate,2,Yes,Positive,Yes
+23,Female,Single,Student,Post Graduate,4,Yes,Positive,Yes
+22,Female,Single,Student,Post Graduate,5,Yes,Positive,Yes
+23,Male,Single,Student,Post Graduate,2,Yes,Positive,Yes
+23,Male,Single,Student,Post Graduate,5,Yes,Positive,Yes
