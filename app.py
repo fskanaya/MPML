@@ -7,7 +7,7 @@ from sklearn.preprocessing import StandardScaler, LabelEncoder
 model = joblib.load('best_model.pkl')
 
 # Memuat data untuk pengkodean dan penskalaan
-data = pd.read_csv('onlinefoods.csv')
+data = pd.read_csv('onlinefoodss.csv')
 
 # Daftar kolom yang diperlukan selama pelatihan
 required_columns = ['Age', 'Gender', 'Marital Status', 'Occupation', 'Educational Qualifications', 'Family size']
