@@ -7,10 +7,10 @@ from sklearn.preprocessing import StandardScaler, LabelEncoder
 model = joblib.load('best_model.pkl')
 
 # Memuat data untuk pengkodean dan penskalaan
-data = pd.read_csv('onlinefoodss.csv')
+data = pd.read_csv('onlinefoods.csv')
 
 # Daftar kolom yang diperlukan selama pelatihan
-required_columns = ['Age', 'Gender', 'Marital Status', 'Occupation', 'Educational Qualifications', 'Family size', ]
+required_columns = ['Age', 'Gender', 'Marital Status', 'Occupation', 'Educational Qualifications', 'Family size']
 
 # Pastikan hanya kolom yang diperlukan ada
 data = data[required_columns]
@@ -43,10 +43,11 @@ def preprocess_input(user_input):
     processed_input[numeric_features] = scaler.transform(processed_input[numeric_features])
     return processed_input
 
+# CSS for styling
 st.markdown("""
     <style>
     .main {
-        background-color: #E0E0E0; /* Neutral Light Gray background */
+        background-color: #F4F4F4; /* Light Gray background */
     }
     h1 {
         color: #333333; /* Dark Gray color */
@@ -54,7 +55,7 @@ st.markdown("""
         margin-bottom: 20px;
     }
     h3 {
-        color: #666666; /* Medium Gray color */
+        color: #555555; /* Medium Gray color */
         text-align: center;
     }
     .stButton>button {
@@ -76,7 +77,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # Streamlit app layout
-st.markdown('<h1>Prediksi Feedback Pelanggan Online Food</h1>', unsafe_allow_html=True)
+st.title("Prediksi Feedback Pelanggan Online Food")
 
 st.markdown("""
     <h3>Masukkan Data Pelanggan</h3>
@@ -97,7 +98,7 @@ user_input = {
     'Occupation': occupation,
     'Educational Qualifications': educational_qualifications,
     'Family size': family_size,
-   }
+}
 
 # Pemetaan angka ke label
 label_mapping = {0: 'No', 1: 'Yes'}
@@ -109,16 +110,5 @@ if st.button('Predict'):
         # Ganti angka dengan label yang sesuai
         prediction_label = label_mapping.get(prediction[0], 'Unknown')
         st.write(f'Prediction: {prediction_label}')
-        
-        # Informasi tambahan tentang prediksi
-        st.markdown("""
-            <div class="info-box">
-                <div class="info-title">Informasi Tentang Hasil Prediksi:</div>
-                <div class="info-content">
-                    <p><strong>Yes:</strong> Pelanggan melakukan tindakan tertentu, seperti melakukan pembelian ulang, memberikan ulasan positif, atau merespons promosi.</p>
-                    <p><strong>No:</strong> Pelanggan tidak melakukan tindakan tersebut, mungkin karena tidak puas dengan layanan, tidak tertarik, atau tidak menerima tawaran promosi.</p>
-                </div>
-            </div>
-        """, unsafe_allow_html=True)
     except ValueError as e:
         st.error(f"Error in prediction: {e}")
