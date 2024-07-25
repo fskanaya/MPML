@@ -10,7 +10,8 @@ model = joblib.load('best_model.pkl')
 data = pd.read_csv('onlinefoods.csv')
 
 # Daftar kolom yang diperlukan selama pelatihan
-required_columns = ['Age', 'Gender', 'Marital Status', 'Occupation', 'Educational Qualifications', 'Family size', 'Monthly Income', 'Pin code', 'latitude', 'longitude']
+required_columns = ['Age', 'Gender', 'Marital Status', 'Occupation','Monthly Income
+', 'Educational Qualifications', 'Family size', 'latitude', 'longitude', 'Pin code']
 
 # Pastikan hanya kolom yang diperlukan ada
 data = data[required_columns]
@@ -91,24 +92,24 @@ age = st.number_input('Age', min_value=18, max_value=100)
 gender = st.selectbox('Gender', ['Male', 'Female'])
 marital_status = st.selectbox('Marital Status', ['Single', 'Married'])
 occupation = st.selectbox('Occupation', ['Student', 'Employee', 'Self Employed'])
+monthly_income = st.number_input('Monthly Income', min_value=0)
 educational_qualifications = st.selectbox('Educational Qualifications', ['Under Graduate', 'Graduate', 'Post Graduate'])
 family_size = st.number_input('Family size', min_value=1, max_value=20)
-monthly_income = st.number_input('Monthly Income', min_value=0)
-pin_code = st.number_input('Pin code', min_value=0)
 latitude = st.number_input('Latitude')
 longitude = st.number_input('Longitude')
+pin_code = st.number_input('Pin code', min_value=0)
 
 user_input = {
     'Age': age,
     'Gender': gender,
     'Marital Status': marital_status,
     'Occupation': occupation,
+    'Monthly Income': monthly_income,
     'Educational Qualifications': educational_qualifications,
     'Family size': family_size,
-    'Monthly Income': monthly_income,
-    'Pin code': pin_code,
     'latitude': latitude,
-    'longitude': longitude
+    'longitude': longitude,
+    'Pin code': pin_code
 }
 
 if st.button('Predict'):
