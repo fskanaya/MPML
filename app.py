@@ -111,7 +111,7 @@ user_input = {
 # Map numbers to labels
 label_mapping = {0: 'No', 1: 'Yes'}
 
-if st.button('Predict'):
+if st.button('Prediksi'):
     user_input_processed = preprocess_input(user_input)
     try:
         prediction = model.predict(user_input_processed)
